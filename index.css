@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url('nature.gif'); */
+    background-image: linear-gradient(rgb(117, 240, 236),rgb(22, 98, 15));
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100vh;
+ 
+
+}
+h1{
+text-align: center;
+color:aliceblue;
+}
+
+.box{
+width:35%;
+padding-left:15px;
+padding-right:15px;
+padding-top:15px;
+text-align: center;
+box-shadow: 2px 2px 5px rgb(115, 208, 237), inset 2px 2px 5px rgb(82, 79, 228);
+background-color: rgba(0,0,0,0.5);
+
+  
+}
+.search{
+    border:none;
+    outline:none;
+    height:50px;
+    width:90%;
+    margin-top: 15px;
+    background-color: rgb(211, 240, 240);
+    box-shadow: 2px 2px 5px rgb(76, 181, 215), -2px -2px 5px rgb(76, 181, 215);
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+.data{
+    text-align: justify;
+    margin:20px;
+    padding-left: 15%;
+    color: rgb(188, 215, 14);
+    font-size: 20px;
+   
+   
+}
+.data h3{
+    margin:10px;
+}
+.img{
+    width:400px;
+    height:200px;
+    margin-bottom:0px;
+}
+#temp{
+    color:azure;
+    font-size: 40px;
+}
+#ws{
+    color: azure;
+    font-size: 40px;
+}
+#hmdty{
+    color: azure;
+    font-size: 30px;
+}
